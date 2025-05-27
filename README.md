@@ -13,20 +13,20 @@ Incluye uso de JPA y H2
   
 ## Estructura del proyecto
 src/
- └── com.truper.demoREST
-      ├── JWT
-      │    └── CONTROLLERS
-      │         ├── AuthController.java
-      │         └── JwtUtil.java
-      └── STORE
-           ├── CONTROLLERS
-           │    ├── OrdenesController.java
-           │    └── IOrdenesController.java
-           ├── ENTITYS
-           │    ├── Orden.java
-           │    ├── Producto.java
-           │    └── Sucursal.java
-           └── SERVICES
-                └── IServiceOrders.java
+  com.truper.demoREST
+    JWT
+      CONTROLLERS
+        AuthController.java
+        JwtUtil.java
+    STORE
+      CONTROLLERS
+        OrdenesController.java
+        IOrdenesController.java
+      ENTITYS
+        Orden.java
+        Producto.java
+        Sucursal.java
+      SERVICES
+        IServiceOrders.java
 
 gracias de antemano por la lectura de este repositorio
